@@ -23,6 +23,7 @@ Copy individual `SKILL.md` files into your project's `.claude/skills/` directory
 | Skill | Trigger | Purpose |
 |-------|---------|---------|
 | [checking-task-splits](skills/checking-task-splits/) | Task plan generation | Auto-validate `.task.md` quality |
+| [create-worktree](skills/create-worktree/) | `git worktree`, isolated workspace, new branch | Create isolated git worktrees with symlinked dependencies |
 | [mcp-connection-guard](skills/mcp-connection-guard/) | MCP issues, session start | Detect and fix MCP server disconnects |
 
 ## Adding a New Skill
